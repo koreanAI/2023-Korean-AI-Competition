@@ -1,4 +1,4 @@
-#nsml: pytorch/pytorch:1.6.0-cuda10.1-cudnn7-runtime
+#!nova: pytorch/pytorch:1.6.0-cuda10.1-cudnn7-runtime
 from distutils.core import setup
 
 setup(
