@@ -2,7 +2,7 @@
 from distutils.core import setup
 
 setup(
-    name='kospeech_nova',
+    name='koreanAI2023',
     version='latest',
     install_requires=[
         # 'torch==1.7.0',
