@@ -2,7 +2,7 @@
 # Dataset
 > 본 문서는 2023 한국어 AI 경진대회 예선 데이터셋에 대한 설명입니다.
 ### Dataset Name
-`TRACK1 - 소리로 더 가까이, 노인 및 소아 계층 특화 음성 인식` : `Tr1KO`  
+`TRACK1 - 소리로 더 가까이, 노인 및 소아 계층 특화 음성 인식` : `Tr1Ko`  
 `TRACK2 - KB국민은행: 상담 음성 인식(금융)` : `Tr2KB`  
 `TRACK2 - 더존비즈온: 비대면 진료를 위한 음성 인식(의료 분야)` : `Tr2DZ`  
 
@@ -11,8 +11,8 @@
 
 `DATASET_PATH/train/train_data/`  
 - `train_data (wav 형식)`
-  - 파일명: idx000000 ~ 
-  - PCM 샘플링 주파수: 16000Hz
+  - 파일명: idx_000000 ~ 
+  - 샘플링 주파수: 16000Hz
   - Mono Channel
 
 
@@ -21,7 +21,7 @@
 `DATASET_PATH/train/train_label`
   - `train_label (csv 형식)`
     - columns - `["filename", "text"]`
-    - `filename` - train_data 폴더에 존재하는 파일명 (ex. idx000000)
+    - `filename` - train_data 폴더에 존재하는 파일명 (ex. idx_000000)
     - `text` - train_data 폴더에 존재하는 파일의 음성 전사 Text 정보 (ex. 인공지능 훈민정음에 꽃 피우다)
 
 
@@ -43,7 +43,7 @@
 ## 실행 방법
 ```bash
 # 명칭이 'Tr1KO'인 데이터셋을 사용해 세션 실행하기
-$ nova run -d Tr1KO
+$ nova run -d Tr1Ko
 # 메인 파일명이 'main.py'가 아닌 경우('-e' 옵션으로 entry point 지정)
 # 예: nova run -d t1-cmd -e anotherfile.py
 $ nova run -d Tr1KO -e [파일명]
