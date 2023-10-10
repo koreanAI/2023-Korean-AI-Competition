@@ -1,7 +1,7 @@
 # [2023 한국어 AI 경진대회](  https://competition.aihub.or.kr/2023) <br/>
 <br/>
 
-![image](https://github.com/koreanAI/2023-Korean-AI-Competition/assets/109724646/ecee55ad-a627-4f7e-8b2c-8afe657762a8)
+![image](https://github.com/koreanAI/2023-Korean-AI-Competition/assets/109724646/b5251c76-4e41-4e9b-89d0-052f1a9b7655)
 
   <br/>   
 
