@@ -45,10 +45,10 @@
 # 명칭이 'Tr1KO'인 데이터셋을 사용해 세션 실행하기
 $ nova run -d Tr1Ko
 # 메인 파일명이 'main.py'가 아닌 경우('-e' 옵션으로 entry point 지정)
-# 예: nova run -d t1-cmd -e anotherfile.py
-$ nova run -d Tr1KO -e [파일명]
+# 예: nova run -d Tr1Ko -e anotherfile.py
+$ nova run -d Tr1Ko -e [파일명]
 # 2GPU와 16CPU, 160GB 메모리를 사용하여 세션 실행하기   
-$ nova run -d Tr1KO -g 2 -c 16 --memory 160G  
+$ nova run -d Tr1Ko -g 2 -c 16 --memory 160G  
 
 # 세션 로그 확인하기
 # 세션명: [유저ID/데이터셋/세션번호] 구조
