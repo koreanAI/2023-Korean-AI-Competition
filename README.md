@@ -218,7 +218,6 @@
 
 <br/>  
 
-* [GITHUB Issues](https://github.com/KoreanAI/2023-Korean-AI-Competition/issues) 이용
 * 대회 페이지 내 [문의 게시판](https://competition.aihub.or.kr/hackathon/scheduleDetail/6) 이용(로그인 후 사용 가능)
 * 실시간 문의 대응 시간 : 평일 09:00 ~ 18:00 (18:00 이후는 익일 대응)
 
